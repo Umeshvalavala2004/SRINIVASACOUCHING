@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #000E1B;
+        margin-left: 100px;
+        margin: 30px;
+    }
+    .heading{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-stretch: expanded;
+        margin: 20PX;
+        padding: 10PX;
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+        column-gap: 10px;
+        justify-items: start;
+        align-items: start;
+       
+          padding-bottom: 8px;
+          margin-bottom: 10px;
+          width: 300px;
+          border-bottom: solid 1px #e1e1e1;
+        
+
+    }
+    .school{
+        height: 400px;
+        width: 400px;
+        background-color: #09203A;
+        color: white;
+        border: 1px solid white;
+        
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-bottom: 20px;
+    }
+    .btech{
+        height: 400px;
+        width: 400px;
+        background-color: #09203A;
+        color: white;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid white;
+    }
+   /* .btech:hover{
+      height: 400px;
+      width: 400px;
+      background-color: #09203A;
+      color: whitesmoke;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+     box-shadow: 5px 5px 5px 3px whitesmoke;
+      transition: 1s;
+      border: 1px solid #000E1B;
+      
+  }
+  .school:hover{
+    height: 400px;
+    width: 400px;
+    background-color: #09203A;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   box-shadow: 5px 5px 5px 3px whitesmoke;
+    transition: 1s;
+    border: 1px solid #000E1B;
+    
+}*/
+    .school img{
+        width: 100%;
+        height: 70px;
+        border-top-left-radius: 20px;
+       
+
+    }
+    .btech img{
+        width: 100%;
+        height: 90px;
+        border-top-left-radius: 20px;
+       
+
+    }
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        padding-left: 50px;
+      }
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-left: 50px;
+      }
+      .education-details{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      
+     
+      }
+      
+      .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+      }
+     .online-certifications1 img{
+        width: 30%;
+        height: 20%;
+border: 2px solid red;
+margin: 10px;
+     }
+      #iithyd{
+        height: 90px !important;
+      }
+       ul li{
+        margin-left: 20px;
+   
+       }
+
+      @media screen and (max-width: 600px) {
+        body{
+            background-color: #000E1B;
+            margin-left: 0px;
+            width: 100%;
+        }
+        .school{
+            height: 350px;
+            width: 100%;
+            background-color: #09203A;
+            color: white;
+            
+        }
+        .school img{
+            width: 100%;
+            height: 90px;
+    
+        }
+        .education-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .btech{
+            height: 400px;
+            width: 100%;
+            background-color: #09203A;
+            color: white;
+        }
+        .btech img{
+            width: 100%;
+            height: 100px;
+            margin-bottom: 0px;
+    
+        }
+        .online-certifications img{
+            width: auto;
+            height: 1vh;
+           
+          }
+          .wrapper{
+            display: flex;
+            flex-direction: column !important;
+            justify-content: space-around;
+            align-items: center;
+    
+          }
+          .online-certifications1{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 10px;
+            row-gap: 20px;
+            justify-items: center;
+            align-items: stretch;
+            
+          }
+         .online-certifications1 img{
+ width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    border: 2px solid red;
+    margin: 30px;
+    margin: 10px;
+         }
+         #iithyd{
+          height: 100px !important;
+          width: 100;
+        }
+      
+      }
+</style>
+<body>
+  <div class="lineheading">
+  <h1 class="heading">EDUCATION</h1>
+
+  </div>
+<div class="education-details"><div class="school">
+      <img src="https://aditya.ac.in/school/assets/img/logo.png" alt="">
+      <hr>
+      <h2 class="roboto-thin">School (High School)</h2>
+      <h2 class="roboto-light">March 2004- May 2017</h2>
+      <p style="font-size: 20px;">Relevant Coursework</p>
+      <ul style="list-style-type: disc; font-size:24px;">
+        <li>Mathematics</li>
+        <li>English (First language)</li>
+        <li>Remaining Standard Subjects</li>
+      </ul>
+    </div>
+
+    <hr>
+    <div class="school">
+        <img src="https://aditya.ac.in/jrcollege/images/logo.png" style="background-color: white;" alt="">
+        <hr>
+        <h2 class="roboto-thin">School (High School)</h2>
+        <h2 class="roboto-light">March 2004- May 2017</h2>
+        <p style="font-size: 20px;">Relevant Coursework</p>
+        <ul style="list-style-type: disc; font-size:24px;">
+          <li>Mathematics</li>
+          <li>English (First language)</li>
+          <li>Remaining Standard Subjects</li>
+        </ul>
+      </div>
+      <hr><div class="btech">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.jdSqfoHHlYVjNIr1PiJOfgHaC1&pid=Api&rs=1&c=1&qlt=95&w=306&h=116" alt="">
+        <hr>
+        <h2 class="roboto-thin">School (High School)</h2>
+        <h2 class="roboto-light">March 2004- May 2017</h2>
+        <p style="font-size: 20px;">Relevant Coursework</p>
+        <ul style="list-style-type: disc; font-size:24px;">
+          <li>Mathematics</li>
+          <li>English (First language)</li>
+          <li>Remaining Standard Subjects</li>
+        </ul>
+      </div></div>
+    <div class="wrapper">
+      <div class="online-certifications1">
+    <img id="iithyd" src="https://tse3.mm.bing.net/th?id=OIP.LSubfA1uNRHSHBAVwS4k7gHaCB&pid=Api&P=0&h=180" alt="">
+    <img id="iithyd" src="https://tse3.mm.bing.net/th?id=OIP.jezeab6TyVEKEzaSc39cvwFcCz&pid=Api&P=0&h=180" alt="">
+    <img id="iithyd" src="https://ihub-data.iiit.ac.in/static/media/ihub-logo-header.68fcf6be1835836dd7e73a94cb89b8d0.svg" alt="">
+    <img id="iithyd" src="https://desimaster.in/wp-content/uploads/2021/12/ice_screenshot_20211227-232517.png" alt="">
+</div>
+<!-- <div class="online-certifications2">
+  <img src="https://tse3.mm.bing.net/th?id=OIP.jezeab6TyVEKEzaSc39cvwFcCz&pid=Api&P=0&h=180" alt="">
+</div>
+<div class="online-certifications3">
+  <img src="https://ihub-data.iiit.ac.in/static/media/ihub-logo-header.68fcf6be1835836dd7e73a94cb89b8d0.svg" alt="">
+</div> -->
+</div>
+
+</body>
+</html>
